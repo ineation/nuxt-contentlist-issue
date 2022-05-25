@@ -22,7 +22,10 @@
 
     <h2>ContentList kind of work with an empty "" path prop</h2>
     <p>
-      <em>It shows all the content but only if I put an empty path props</em>
+      <em
+        >It shows all the content but only if I put an path prop with an empty
+        string</em
+      >
     </p>
     <ContentList path="" v-slot="{ list }">
       <div v-for="article in list" :key="article._path">
